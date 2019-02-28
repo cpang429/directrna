@@ -1,0 +1,7 @@
+# You can use this file to create a conda environment for this pipeline:
+# conda env create -f environment.yml
+name: nanoporepipeline-env-1.0
+channels:
+  - bioconda
+dependencies: 
+  - bioconda::nanoplot=1.19.0

@@ -1,0 +1,26 @@
+# You can use this file to create a conda environment for this pipeline:
+# conda env create -f environment.yml
+name: nanoporepipeline-env-1.0
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+  - r
+  - cyclus
+dependencies: 
+  - conda-forge::aws-cli=1.16.53
+  - bioconda::bcftools=1.9
+  - bioconda::bedtools=2.27.1
+  - bioconda::minimap2=2.13
+  - bioconda::graphmap=0.5.2
+  - bioconda::samtools=1.9  
+  - bioconda::NanoPlot=1.19.0
+  - bioconda::ucsc-bedgraphtobigwig=366
+  - bioconda::ucsc-bedsort=366
+  - bioconda::ucsc-bedtobigbed=366
+  - conda-forge::python=3.7.15
+  - r::r=3.4.3
+  - bioconda::rseqc=2.6.4
+  - bioconda::picard=2.9.2
+  - bioconda::rna-seqc=1.1.8
+  - cyclus::java-jdk=8.45.14 
